@@ -24,7 +24,7 @@ pipe.enable_vae_tiling()
 ip_model = IPAdapterXL(pipe, image_encoder_path, ip_ckpt, device, target_blocks=["up_blocks.0.attentions.1"])
 #ip_model = IPAdapterXL(pipe, image_encoder_path, ip_ckpt, device, target_blocks=["block"])
 
-image = "./style/39.jpg"
+image = "./images/style/1.jpg"
 image = Image.open(image)
 image.resize((512, 512))
 
