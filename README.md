@@ -17,7 +17,7 @@ We propose a novel **SVD-based control mechanism** to balance content preservati
 ![More Results](/images/result/3.png)
 ---
 
-## 1.Download
+### 🚀1. Download
 ```bash
 # git clone this repository
 git clone https://github.com/math-ddup/StyleBoost.git
@@ -30,14 +30,14 @@ mv IP-Adapter/models models
 mv IP-Adapter/sdxl_models sdxl_models
 ```
 
-## 2.Set Up the Environment
+### 📦2. Set Up the Environment
 ```bash
 conda create -n styleboost python=3.10 -y
 conda activate styleboost
 
 pip install -r requirements.txt
 ```
-## 3. Run Inference
+### ▶️3. Run Inference
 ```bash
 python infer_style.py
 ```
