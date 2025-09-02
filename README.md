@@ -17,6 +17,27 @@ We propose a novel **SVD-based control mechanism** to balance content preservati
 ![More Results](/images/result/3.png)
 ---
 
+## Download
+```bash
+# git clone this repository
+git clone https://github.com/math-ddup/StyleBoost.git
+cd StyleBoost
+
+# download the models
+git lfs install
+git clone https://huggingface.co/h94/IP-Adapter
+mv IP-Adapter/models models
+mv IP-Adapter/sdxl_models sdxl_models
+```
+
+## Set Up the Environment
+```bash
+conda create -n styleboost python=3.10 -y
+conda activate styleboost
+
+pip install -r requirements.txt
+```
+
 ## Acknowledgements
 Our work is mainly based on the following projects:
 - [InstantStyle](https://github.com/instantX-research/InstantStyle.git)
