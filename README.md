@@ -2,7 +2,7 @@
 ---
 ## 📖 Introduction
 This repository provides the official implementation of **StyleBoost**, a text-driven style transfer framework based on diffusion models.  
-We propose a novel **SVD-based control mechanism** to balance content preservation and style adaptation.
+StyleBoost is a text-driven style transfer method for text-to-image generation. It uses SVD-based style extraction to separate style from content and an improved cross-attention module to enhance text-image alignment. Experiments show it improves style consistency and responsiveness to text without extra training, while being generalizable, scalable, and compatible with other control modules like ControlNet.
 
 ---
 
